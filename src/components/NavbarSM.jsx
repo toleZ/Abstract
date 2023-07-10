@@ -10,9 +10,9 @@ const NavbarSM = () => {
   return (
     <>
       <nav
-        className={`relative px-20 py-6 flex lg:hidden items-center justify-between text-abstract-fff ${
+        className={`relative px-2 md:px-20 py-3 md:py-6 flex lg:hidden items-center justify-between text-abstract-fff ${
           isHidden ? "bg-abstract-000000" : "bg-abstract-191a1b"
-        } text-2xl`}
+        } text-xl md:text-2xl`}
       >
         <div className="flex items-center gap-3">
           <a href="#" className="hover:opacity-80 transition-all duration-300">

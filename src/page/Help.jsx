@@ -4,7 +4,7 @@ const Help = () => {
   return (
     <main>
       <header className="px-8 py-32 flex flex-col items-center justify-center gap-8 bg-abstract-dadbf1">
-        <h1 className="text-7xl">How can we help?</h1>
+        <h1 className="text-4xl md:text-7xl text-center">How can we help?</h1>
         <form className="relative w-full max-w-[720px] group">
           <input
             type="text"
@@ -17,7 +17,7 @@ const Help = () => {
         </form>
       </header>
 
-      <section className="w-5/6 mx-auto py-24 grid grid-cols-2 gap-x-8 gap-y-28">
+      <section className="w-5/6 mx-auto py-24 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-28">
         <article className="grid grid-cols-4 gap-6">
           <img src="/img/asset 0.png" alt="Image" className="w-20 col-span-1" />
           <div className="text-xl col-span-3">
