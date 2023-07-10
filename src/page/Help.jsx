@@ -1,5 +1,5 @@
 const Help = () => {
-  return <div>Help page</div>;
+  return <div className="h-screen">Help page</div>;
 };
 
 export default Help;
