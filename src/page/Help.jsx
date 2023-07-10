@@ -18,9 +18,9 @@ const Help = () => {
       </header>
 
       <section className="w-5/6 mx-auto py-24 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-28">
-        <article className="grid grid-cols-4 gap-6">
-          <img src="/img/asset 0.png" alt="Image" className="w-20 col-span-1" />
-          <div className="text-xl col-span-3">
+        <article className="flex gap-6">
+          <img src="/img/asset 0.png" alt="Image" className="w-20 h-20" />
+          <div className="text-xl">
             <h3 className="font-bold">Using Abstract</h3>
             <p className="my-3">
               Abstract lets you manage, version, and document your designs in
@@ -35,9 +35,9 @@ const Help = () => {
           </div>
         </article>
 
-        <article className="grid grid-cols-4 gap-6">
-          <img src="/img/asset 1.png" alt="Image" className="w-20 col-span-1" />
-          <div className="text-xl col-span-3">
+        <article className="flex gap-6">
+          <img src="/img/asset 1.png" alt="Image" className="w-20 h-20" />
+          <div className="text-xl">
             <h3 className="font-bold">Manage your account</h3>
             <p className="my-3">
               Configure your account settings, such as your email, profile
@@ -52,9 +52,9 @@ const Help = () => {
           </div>
         </article>
 
-        <article className="grid grid-cols-4 gap-6">
-          <img src="/img/asset 2.png" alt="Image" className="w-20 col-span-1" />
-          <div className="text-xl col-span-3">
+        <article className="flex gap-6">
+          <img src="/img/asset 2.png" alt="Image" className="w-20 h-20" />
+          <div className="text-xl">
             <h3 className="font-bold">
               Manage organizations, teams, and projects
             </h3>
@@ -71,9 +71,9 @@ const Help = () => {
           </div>
         </article>
 
-        <article className="grid grid-cols-4 gap-6">
-          <img src="/img/asset 3.png" alt="Image" className="w-20 col-span-1" />
-          <div className="text-xl col-span-3">
+        <article className="flex gap-6">
+          <img src="/img/asset 3.png" alt="Image" className="w-20 h-20" />
+          <div className="text-xl">
             <h3 className="font-bold">Manage billing</h3>
             <p className="my-3">Change subscriptions and payment details.</p>
             <a
@@ -85,9 +85,9 @@ const Help = () => {
           </div>
         </article>
 
-        <article className="grid grid-cols-4 gap-6">
-          <img src="/img/asset 4.png" alt="Image" className="w-20 col-span-1" />
-          <div className="text-xl col-span-3">
+        <article className="flex gap-6">
+          <img src="/img/asset 4.png" alt="Image" className="w-20 h-20" />
+          <div className="text-xl">
             <h3 className="font-bold">Authenticate to Abstract</h3>
             <p className="my-3">
               Set up and configure SSO, SCIM, and Just-in-Time provisioning.
@@ -101,9 +101,9 @@ const Help = () => {
           </div>
         </article>
 
-        <article className="grid grid-cols-4 gap-6">
-          <img src="/img/asset 5.png" alt="Image" className="w-20 col-span-1" />
-          <div className="text-xl col-span-3">
+        <article className="flex gap-6">
+          <img src="/img/asset 5.png" alt="Image" className="w-20 h-20" />
+          <div className="text-xl">
             <h3 className="font-bold">Abstract support</h3>
             <p className="my-3">Get in touch with a human.</p>
             <a
