@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "./Logo";
-import { ImSearch, ImMenu } from "react-icons/im";
+import { ImSearch } from "react-icons/im";
+import BurguerButton from "./BurguerButton";
 
 const NavbarSM = () => {
   const [isHidden, setIsHidden] = useState(true);
@@ -28,9 +29,7 @@ const NavbarSM = () => {
           <button>
             <ImSearch />
           </button>
-          <button onClick={handleHidden}>
-            <ImMenu />
-          </button>
+          <BurguerButton isHidden={isHidden} handleHidden={handleHidden} />
         </div>
       </nav>
       <div
