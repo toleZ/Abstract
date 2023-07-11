@@ -4,7 +4,9 @@ const Help = () => {
   return (
     <main>
       <header className="px-8 py-32 flex flex-col items-center justify-center gap-8 bg-abstract-dadbf1">
-        <h1 className="text-4xl md:text-7xl text-center">How can we help?</h1>
+        <h1 className="text-4xl md:text-7xl text-center font-medium">
+          How can we help?
+        </h1>
         <form className="relative w-full max-w-[720px] group">
           <input
             type="text"
@@ -22,13 +24,13 @@ const Help = () => {
           <img src="/img/asset 0.png" alt="Image" className="w-20 h-20" />
           <div className="text-xl">
             <h3 className="font-bold">Using Abstract</h3>
-            <p className="my-3">
+            <p className="my-3 font-medium">
               Abstract lets you manage, version, and document your designs in
               one place.
             </p>
             <a
               href="#"
-              className="flex items-center gap-2 text-abstract-4C5FD5 hover:underline"
+              className="flex items-center gap-2 text-abstract-4C5FD5 font-medium hover:underline"
             >
               Learn More →
             </a>
@@ -39,13 +41,13 @@ const Help = () => {
           <img src="/img/asset 1.png" alt="Image" className="w-20 h-20" />
           <div className="text-xl">
             <h3 className="font-bold">Manage your account</h3>
-            <p className="my-3">
+            <p className="my-3 font-medium">
               Configure your account settings, such as your email, profile
               details, and password.
             </p>
             <a
               href="#"
-              className="flex items-center gap-2 text-abstract-4C5FD5 hover:underline"
+              className="flex items-center gap-2 text-abstract-4C5FD5 font-medium hover:underline"
             >
               Learn More →
             </a>
@@ -58,13 +60,13 @@ const Help = () => {
             <h3 className="font-bold">
               Manage organizations, teams, and projects
             </h3>
-            <p className="my-3">
+            <p className="my-3 font-medium">
               Use Abstract organizations, teams, and projects to organize your
               people and your work.
             </p>
             <a
               href="#"
-              className="flex items-center gap-2 text-abstract-4C5FD5 hover:underline"
+              className="flex items-center gap-2 text-abstract-4C5FD5 font-medium hover:underline"
             >
               Learn More →
             </a>
@@ -75,10 +77,12 @@ const Help = () => {
           <img src="/img/asset 3.png" alt="Image" className="w-20 h-20" />
           <div className="text-xl">
             <h3 className="font-bold">Manage billing</h3>
-            <p className="my-3">Change subscriptions and payment details.</p>
+            <p className="my-3 font-medium">
+              Change subscriptions and payment details.
+            </p>
             <a
               href="#"
-              className="flex items-center gap-2 text-abstract-4C5FD5 hover:underline"
+              className="flex items-center gap-2 text-abstract-4C5FD5 font-medium hover:underline"
             >
               Learn More →
             </a>
@@ -89,12 +93,12 @@ const Help = () => {
           <img src="/img/asset 4.png" alt="Image" className="w-20 h-20" />
           <div className="text-xl">
             <h3 className="font-bold">Authenticate to Abstract</h3>
-            <p className="my-3">
+            <p className="my-3 font-medium">
               Set up and configure SSO, SCIM, and Just-in-Time provisioning.
             </p>
             <a
               href="#"
-              className="flex items-center gap-2 text-abstract-4C5FD5 hover:underline"
+              className="flex items-center gap-2 text-abstract-4C5FD5 font-medium hover:underline"
             >
               Learn More →
             </a>
@@ -105,10 +109,10 @@ const Help = () => {
           <img src="/img/asset 5.png" alt="Image" className="w-20 h-20" />
           <div className="text-xl">
             <h3 className="font-bold">Abstract support</h3>
-            <p className="my-3">Get in touch with a human.</p>
+            <p className="my-3 font-medium">Get in touch with a human.</p>
             <a
               href="#"
-              className="flex items-center gap-2 text-abstract-4C5FD5 hover:underline"
+              className="flex items-center gap-2 text-abstract-4C5FD5 font-medium hover:underline"
             >
               Learn More →
             </a>
