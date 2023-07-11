@@ -12,6 +12,9 @@ export default {
           "191a1b": "#191a1b",
         },
       },
+      fontFamily: {
+        "gt-america": "GT America",
+      },
     },
   },
   plugins: [],

@@ -1,3 +1,9 @@
+@import url("/font/GT-America/stylesheet.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "GT America";
+}
